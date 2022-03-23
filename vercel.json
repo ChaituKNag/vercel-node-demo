@@ -1,0 +1,6 @@
+{
+    "routes": [
+        { "src": "/", "dest": "/api/users.js"},
+        { "src": "/users", "dest": "/api/users.js", "methods": ["GET", "POST"]}
+    ]
+}
